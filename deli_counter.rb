@@ -21,5 +21,5 @@ def take_a_number(line,name)
 end
 
 def now_serving(line)
-  puts "There are currently no people in line"
+  puts "There is nobody currentl
 end
