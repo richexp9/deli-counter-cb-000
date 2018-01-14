@@ -8,14 +8,16 @@ def line(line)
     line.each_with_index { |e, i|
        list = "#{list}#{i+1}. #{e} "
     }
+    list = list.slice(0, list.size - 1)
+    puts "The line is currently: #{list}"
   end
-  list
-  binding.pry
+
 end
-line(katz_deli)
+#puts line(katz_deli)
 
 def take_a_number(line,name)
-
+  line.push(name)
+  puts "Welcome, #{name}. You are number 1 in line."
 end
 
 def now_serving
