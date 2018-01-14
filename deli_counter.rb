@@ -20,6 +20,6 @@ def take_a_number(line,name)
   puts "Welcome, #{name}. You are number #{line.find_index(name) + 1} in line."
 end
 
-def now_serving
+def now_serving(line)
   puts "There are currently no people in line"
 end
